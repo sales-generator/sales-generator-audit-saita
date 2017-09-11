@@ -1,0 +1,146 @@
+@media screen and (min-width: 501px) and (max-width: 900px) {
+  .btn--callback{
+    margin-left: 0px;
+    width: 50%;
+  }
+  .nav{
+    flex-flow: row wrap;
+    justify-content: center;
+    &__tel{
+      margin: 10px 0 0 0;
+      width: 50%;
+      text-align: left;
+      padding-left: 5px;
+    }
+    &__title{
+      text-align: center;
+      width: 50%;
+      margin-left: auto;
+      left: 10%;
+      display: block;
+    }
+    &__logo{
+      width: 50%;
+      img{
+        display: block;
+        margin: auto;
+      }
+    }
+  }
+
+  .header{
+    &__content{
+      padding: 20px 0 0 0;
+      &-title{
+        font-size: 30px;
+        text-align: center;
+        line-height: 40px;
+      }
+      &-text{
+        text-align: center;
+        padding: 0 10px;
+        font-size: 25px;
+      }
+    }
+    &-content-background{
+      background: url("../images/headerbackground.png") no-repeat 100% 50%;
+      background-size: cover;
+    }
+  }
+
+  .know-form{
+    width: 100%;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+
+    input[type="text"]{
+      width: 60%;
+      margin-left: 0px;
+    }
+
+    input[type="button"]{
+      width: 25%;
+    }
+
+    &__title{
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+
+  .seo{
+    &__partitions{
+      &-items{
+        font-size: 16px;
+        display: flex;
+        img{
+          float: none;
+          padding-right: 0;
+        }
+      }
+    }
+  }
+
+  .include-materials__desc{
+    .btn{
+      white-space: normal;
+    }
+  }
+
+  .proposition{
+    &-block{
+      flex-flow: column;
+      justify-content: center;
+      align-items: center;
+      &__item{
+        margin-top: 20px;
+        width: 85%;
+        .btn{
+          white-space: normal;
+        }
+      }
+      &__item:last-child{
+        form{
+          width: 90%;
+        }
+      }
+    }
+  }
+
+  .results-info__item{
+    width: 50%;
+  }
+
+  .popup-overlay .popup-form{
+    width: 70%;
+  }
+
+  .popup-slider-overlay{
+    .popup-slider{
+      width: 75%;
+    }
+  }
+
+  .popup-overlay .popup-fullcase{
+    width: 79%;
+    &__close{
+      font-size: 35px;
+    }
+  }
+
+  .submit-btn{
+    margin-left: 15px !important;
+    padding: 8px 28px !important;
+  }
+
+  .seo__partition--2 p{
+    width: 107%;
+  }
+
+  .footer{
+    .top-button-block{
+      bottom: 40px;
+    }
+  }
+}

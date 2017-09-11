@@ -1,0 +1,210 @@
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  .btn--callback{
+    margin-left: 0px;
+  }
+  .nav{
+    flex-direction: column;
+    &__tel{
+      margin-left: 0px;
+      width: 100%;
+      text-align: center;
+    }
+    &__title{
+      text-align: center;
+      width: 100%;
+      margin-left: 0px;
+      left: 0;
+      padding: 20px;
+    }
+  }
+
+  .header{
+    &__content{
+      padding: 20px 0 0 0;
+      &-title{
+        font-size: 24px;
+        text-align: center;
+        line-height: 40px;
+      }
+      &-text{
+        text-align: center;
+        padding: 0 10px;
+        font-size: 20px;
+      }
+    }
+    &-content-background{
+      background: url("../images/headerbackground.png") no-repeat 10% 100%;
+    }
+  }
+  .know-form{
+    width: 100%;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+    input[type="text"], input[type="button"], input[type="submit"]{
+      width: 85%;
+      margin-left: 0px;
+    }
+
+    input[type="button"], input[type="submit"]{
+      margin: 20px 0 0 0;
+    }
+
+    &__title{
+      text-align: center;
+    }
+  }
+
+  .separatorbottom {
+    .bigcircle-bottom{
+      width: 107%;
+      right: 12px;
+    }
+  }
+
+  .seo{
+    &__title{
+      font-size: 32px;
+    }
+    &__partitions{
+      flex-flow: column;
+      align-items: center;
+      overflow: hidden;
+      &__header{
+        font-size: 22px;
+      }
+      &-items{
+        font-size: 18px;
+        display: flex;
+      }
+    }
+    @for $partiton from 1 through 2 {
+      &__partition--#{$partiton} {
+        width: 95%;
+      }
+    }
+  }
+  .audit{
+    &-info{
+      flex-flow: column;
+      margin: 20px 0 0 0;
+      padding: 20px 0;
+      &__item{
+        width: 100%;
+        align-self: center;
+      }
+    }
+  }
+
+  .include{
+   /* margin: 40px 0 0 0;*/
+    &-materials{
+      flex-flow: column;
+      &__list{
+        width: 100%;
+      }
+      &__desc{
+        width: 100%;
+        .btn{
+          white-space: normal;
+        }
+      }
+    }
+  }
+
+  .results{
+    &-info{
+      flex-flow: row wrap;
+      &__item{
+        width: 100%;
+      }
+    }
+  }
+
+  .proposition{
+    &-block{
+      flex-flow: column;
+      &__item{
+        margin-top: 20px;
+        width: 100%;
+        .btn{
+          white-space: normal;
+          width: 80%;
+        }
+      }
+      &__item:last-child{
+        form{
+          width: 90%;
+        }
+      }
+    }
+  }
+
+  .footer{
+    &-container{
+      margin-top: 40px;
+      flex-direction: column;
+      align-items: center;
+    }
+    @each $footer-item in (__logo, __address, __phone) {
+      &#{$footer-item} {
+        width: 100%;
+      }
+      @if($footer-item == __address) {
+        &#{$footer-item} {
+          margin-bottom: 0px;
+          margin-top: 10px;
+        }
+      }
+    }
+    .top-button-block{
+      bottom: 40px;
+      .top-button{
+        width: 40px;
+        height: 40px;
+        line-height: 35px;
+        &::before{
+          font-size: 35px;
+        }
+      }
+    }
+  }
+
+  .popup-overlay .popup-form{
+    width: 90%;
+    input[type="submit"]{
+      width: 100%;
+    }
+  }
+
+  .popup-slider-overlay{
+    .popup-slider{
+      width: 95%;
+      .slick-next, .slick-prev{
+        display: none !important;
+      }
+    }
+  }
+
+  .popup-overlay .popup-fullcase{
+    width: 98%;
+    &__close{
+      font-size: 35px;
+    }
+  }
+
+  .submit-btn{
+    margin-left: 0 !important;
+    width: 50% !important;
+    padding: 8px 28px !important;
+  }
+  .popup-overlay .popup-form{
+    top: 5%;
+    p{
+      font-size: 18px;
+      padding: 0;
+    }
+  }
+
+}
