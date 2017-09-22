@@ -10,13 +10,16 @@ class YouSiteAudit extends Component{
         this.props.showModal(true);
         switch (event.target.getAttribute('data-audit')) {
             case 'Поднять позиции в поисковых системах':
-                yaCounter44418460.reachGoal('RAISE_POSITION'); return true;
+                yaCounter44418460.reachGoal('RAISE_POSITION');
+                yaCounter44418460.reachGoal('ALL_FORMS')
                 break;
             case 'Увеличить число новых клиентов':
-                yaCounter44418460.reachGoal('INCREASE'); return true;
+                yaCounter44418460.reachGoal('INCREASE');
+                yaCounter44418460.reachGoal('ALL_FORMS')
                 break;
             case 'Уменьшить стоимость привлечения клиентов':
-                yaCounter44418460.reachGoal('CUT_COST'); return true;
+                yaCounter44418460.reachGoal('CUT_COST');
+                yaCounter44418460.reachGoal('ALL_FORMS')
                 break;
         }
     }

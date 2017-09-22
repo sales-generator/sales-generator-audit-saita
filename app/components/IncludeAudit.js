@@ -11,6 +11,7 @@ class IncludeAudit extends Component{
         this.props.showModal(true);
         this.props.setInclude(true);
         yaCounter44418460.reachGoal('KNOW_AMOUNT');
+        yaCounter44418460.reachGoal('ALL_FORMS')
         ga('send', 'event', 'example-recomendation-as', 'send-example-recomendation-as');
     }
     showSliderHandler() {

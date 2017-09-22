@@ -11,14 +11,17 @@ class Proposition extends Component{
         switch (event.target.getAttribute('data-rate')) {
             case 'Базовый':
                 yaCounter44418460.reachGoal('ORDER_BASE');
+                yaCounter44418460.reachGoal('ALL_FORMS')
                 ga('send', 'event', 'order-audit-basic-as', 'send-order-audit-basic-as');
                 break;
             case 'Оптимальный':
                 yaCounter44418460.reachGoal('ORDER_OPTIMAL');
+                yaCounter44418460.reachGoal('ALL_FORMS')
                 ga('send', 'event', 'order-audit-optimal-as', 'send-order-audit-optimal-as');
                 break;
             case 'Премиум':
                 yaCounter44418460.reachGoal('ORDER_PREMIUM');
+                yaCounter44418460.reachGoal('ALL_FORMS')
                 ga('send', 'event', 'order-audit-premium-as', 'send-order-audit-premium-as');
                 break;
         }

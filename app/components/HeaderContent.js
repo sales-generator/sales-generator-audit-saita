@@ -14,6 +14,7 @@ class HeaderContent extends Component{
         }
         this.props.sendClientsCallback(formData);
         yaCounter44418460.reachGoal('KNOW');
+        yaCounter44418460.reachGoal('ALL_FORMS')
         ga('send', 'event', 'know-as', 'send-know-as');
     }
 
