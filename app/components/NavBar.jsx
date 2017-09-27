@@ -10,7 +10,6 @@ class NavBar extends Component{
         this.props.setTypeRate('');
         this.props.showModal(true);
         yaCounter44418460.reachGoal('CALL_BACK');
-        yaCounter44418460.reachGoal('ALL_FORMS')
         ga('send', 'event', 'callback-as', 'send-callback-as');
     }
 

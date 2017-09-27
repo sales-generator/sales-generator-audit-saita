@@ -14,8 +14,10 @@ class HeaderContent extends Component{
         }
         this.props.sendClientsCallback(formData);
         yaCounter44418460.reachGoal('KNOW');
-        yaCounter44418460.reachGoal('ALL_FORMS')
         ga('send', 'event', 'know-as', 'send-know-as');
+    }
+    allBtnSend(e) {
+        yaCounter44418460.reachGoal('ALL_BTN_SEND3');
     }
 
     clientsNotification() {
@@ -52,7 +54,7 @@ class HeaderContent extends Component{
                             {screen.width < 1024 ? <input type="text" ref="phone" className="form-control" placeholder="Телефон *"  required/> :
                                 <MaskedInput mask="+7(111) 111 11 11" type="text" ref="phone" className="form-control" placeholder="Телефон *"  required/>
                             }
-                            <input type="submit" className="btn submit-btn"  value="Узнать"/>
+                            <input type="submit" className="btn submit-btn"  value="Узнать" onClick={this.allBtnSend.bind(this)}/>
                         </form>
                     </div>
                     <div className="separatorbottom">

@@ -88,6 +88,10 @@ class ModalForm extends Component{
         e.stopPropagation();
         this.props.showModal(true);
     }
+    targetBtnSend (e) {
+        yaCounter44418460.reachGoal('ALL_BTN_SEND3');
+        return true;
+    }
 
     render() {
         return(
@@ -104,7 +108,7 @@ class ModalForm extends Component{
                       <div className="personal-data">
                           <input type="checkbox" className="form-control" required defaultChecked/><p>Согласен на обработку <a href="https://sales-generator.ru/Politika-konfidencialnosti.pdf">персональных данных</a></p>
                       </div>
-                      <input type="submit" value='Отправить заявку!' className="btn"/>
+                      <input type="submit" value='Отправить заявку!' className="btn" onClick={this.targetBtnSend.bind(this)}/>
                   </form>
               </div>
             </div>
