@@ -73,31 +73,31 @@ class Result extends Component{
                     <div className="results-info__row">
                         <div className="results-info__column">
                             <div className="results-info__column__item"><img ref="image1" src="images/gd.jpg" alt="График роста сайта Генеральный дирекктор" title="График роста сайта Генеральный дирекктор" onClick={this.caseClickHandler.bind(this)}/></div>
-                            <div className="results-info__column__item"><img ref="image2" src="images/icc.jpg" alt="График роста сайта Междунаротной торговой палаты" title="График роста сайта Междунаротной торговой палаты" onClick={this.caseClickHandler.bind(this)}/></div>
+                            <div className="results-info__column__item"><img ref="image2" src="images/icc2-min.jpg" alt="График роста сайта Междунаротной торговой палаты" title="График роста сайта Междунаротной торговой палаты" onClick={this.caseClickHandler.bind(this)}/></div>
                         </div>
                     </div>
                     </div>
                     <div>
                       <div className="results-info__row">
                         <div className="results-info__column">
-                            <div className="results-info__column__item"><img ref="image3" src="images/pansionat.jpg" alt="График роста сайта Пансионат Осень" title="График роста сайта Пансионат Осень" onClick={this.caseClickHandler.bind(this)}/></div>
-                            <div className="results-info__column__item"><img ref="image4" src="images/dejure.jpg" alt="График роста сайта De Jure De Facto" title="График роста сайта De Jure De Facto" onClick={this.caseClickHandler.bind(this)}/></div>
+                            <div className="results-info__column__item"><img ref="image3" src="images/po2-min.jpg" alt="График роста сайта Пансионат Осень" title="График роста сайта Пансионат Осень" onClick={this.caseClickHandler.bind(this)}/></div>
+                            <div className="results-info__column__item"><img ref="image4" src="images/dd2-min.jpg" alt="График роста сайта De Jure De Facto" title="График роста сайта De Jure De Facto" onClick={this.caseClickHandler.bind(this)}/></div>
                         </div>
                       </div>
                     </div>
                         <div>
                             <div className="results-info__row">
                                 <div className="results-info__column">
-                                    <div className="results-info__column__item"><img ref="image5" src="images/santech.jpg" alt="График роста сайта Пансионат Осень" title="График роста сайта Пансионат Осень" onClick={this.caseClickHandler.bind(this)}/></div>
-                                    <div className="results-info__column__item"><img ref="image6" src="images/bussines-resuourse.jpg" alt="График роста сайта De Jure De Facto" title="График роста сайта De Jure De Facto" onClick={this.caseClickHandler.bind(this)}/></div>
+                                    <div className="results-info__column__item"><img ref="image5" src="images/sr2-min.jpg" alt="График роста сайта Сантехрегион" title="График роста сайта Сантехрегион" onClick={this.caseClickHandler.bind(this)}/></div>
+                                    <div className="results-info__column__item"><img ref="image6" src="images/br2-min.jpg" alt="График роста сайта Бизнес Ресурс" title="График роста сайта Бизнес Ресурс" onClick={this.caseClickHandler.bind(this)}/></div>
                                 </div>
                             </div>
                         </div>
                         <div>
                             <div className="results-info__row">
                                 <div className="results-info__column">
-                                    <div className="results-info__column__item"><img ref="image7" src="images/word-deal.jpg" alt="График роста сайта Пансионат Осень" title="График роста сайта Пансионат Осень" onClick={this.caseClickHandler.bind(this)}/></div>
-                                    <div className="results-info__column__item"><img ref="image8" src="images/veronica.jpg" alt="График роста сайта De Jure De Facto" title="График роста сайта De Jure De Facto" onClick={this.caseClickHandler.bind(this)}/></div>
+                                    <div className="results-info__column__item"><img ref="image7" src="images/sd2-min.jpg" alt="График роста сайта Слово и дело" title="График роста сайта Слово и дело" onClick={this.caseClickHandler.bind(this)}/></div>
+                                    <div className="results-info__column__item"><img ref="image8" src="images/veronica.jpg" alt="График роста сайта Veronika Herba" title="График роста сайта Veronika Herba" onClick={this.caseClickHandler.bind(this)}/></div>
                                 </div>
                             </div>
                         </div>
