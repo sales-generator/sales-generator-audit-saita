@@ -97,7 +97,23 @@ class Result extends Component{
                             <div className="results-info__row">
                                 <div className="results-info__column">
                                     <div className="results-info__column__item"><img ref="image7" src="images/sd2-min.jpg" alt="График роста сайта Слово и дело" title="График роста сайта Слово и дело" onClick={this.caseClickHandler.bind(this)}/></div>
-                                    <div className="results-info__column__item"><img ref="image8" src="images/veronica.jpg" alt="График роста сайта Veronika Herba" title="График роста сайта Veronika Herba" onClick={this.caseClickHandler.bind(this)}/></div>
+                                    <div className="results-info__column__item"><img ref="image8" src="images/biokit-min.jpg" alt="График роста сайта Биокит" title="График роста сайта Биокит" onClick={this.caseClickHandler.bind(this)}/></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className="results-info__row">
+                                <div className="results-info__column">
+                                    <div className="results-info__column__item"><img ref="image9" src="images/mrvov-min.jpg" alt="График роста сайта Мистер ВОВ" title="График роста сайта Мистер ВОВ" onClick={this.caseClickHandler.bind(this)}/></div>
+                                    <div className="results-info__column__item"><img ref="image10" src="images/patent-min.jpg" alt="График роста сайта Царская привилегия" title="График роста сайта Царская привилегия" onClick={this.caseClickHandler.bind(this)}/></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className="results-info__row">
+                                <div className="results-info__column">
+                                    <div className="results-info__column__item"><img ref="image9" src="images/trecom-min.jpg" alt="График роста сайта Треком" title="График роста сайта Треком" onClick={this.caseClickHandler.bind(this)}/></div>
+                                    <div className="results-info__column__item"><img ref="image10" src="images/vvs-min.jpg" alt="График роста сайта ВВС" title="График роста сайта ВВС" onClick={this.caseClickHandler.bind(this)}/></div>
                                 </div>
                             </div>
                         </div>
