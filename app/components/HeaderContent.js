@@ -15,6 +15,7 @@ class HeaderContent extends Component{
         this.props.sendClientsCallback(formData);
         yaCounter44418460.reachGoal('KNOW');
         ga('send', 'event', 'know-as', 'send-know-as');
+        roistatGoal.reach({name: formData.phone, phone: formData.phone, email: '', leadName: 'Лендинг_Бесплатный_аудит', text: 'Лендинг АС - Узнайте, сколько новых клиентов Вы можете получить с сайта'});
     }
     allBtnSend(e) {
         yaCounter44418460.reachGoal('ALL_BTN_SEND3');

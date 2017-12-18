@@ -48,10 +48,12 @@ class ModalForm extends Component{
                 for (let field in this.refs) {
                     formData[field] = this.refs[field].mask.getValue();
                 }
+                roistatGoal.reach({name: formData.callback, phone: formData.phone, email: '', leadName: 'Лендинг_Бесплатный_аудит', text: 'Лендинг АС - Заказ обратного звонка'});
             } else {
                 formData = {'form-name': 'include-audit'};
                 formData.email = this.refs.email.value;
                 formData.phone = this.refs.phone.mask.getValue();
+                roistatGoal.reach({name: formData.email, phone: formData.phone, email: formData.email, leadName: 'Лендинг_Бесплатный_аудит', text: 'Лендинг АС - Заказ Примера рекомендаций из аудита'});
             }
             this.props.sendCallback(formData);
         } else if(this.props.formState.typeRate && !this.props.formState.auditType) {
@@ -59,12 +61,14 @@ class ModalForm extends Component{
             for (let field in this.refs) {
                 formData[field] = this.refs[field].mask.getValue();
             }
+            roistatGoal.reach({name: formData.callback, phone: formData.phone, email: '', leadName: 'Лендинг_Бесплатный_аудит', text: `Лендинг АС - Заказ аудита - тариф ${formData.rate}`});
             this.props.sendCallback(formData);
         } else if(!this.props.formState.typeRate && this.props.formState.auditType) {
             let formData = {'form-name': 'audits', 'type': this.props.formState.auditType};
             for (let field in this.refs) {
                 formData[field] = this.refs[field].mask.getValue();
             }
+            roistatGoal.reach({name: formData.callback, phone: formData.phone, email: '', leadName: 'Лендинг_Бесплатный_аудит', text: `Лендинг АС - Заказ аудита - второй экран ${formData.type}`});
             this.props.sendCallback(formData);
         }
     }
